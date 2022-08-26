@@ -1,20 +1,30 @@
 body {
     font-family: Roboto;
+    display: flex;
+    flex-direction: column;
     
+}
 
-
-
+img {
+    max-width: 250px;
+    max-height: 200px;
+    
 }
 .header {
-    background-color: rgb(39, 39, 145);
+    background-color: #1f2037;
     color: white;
     display: flex;
     justify-content: space-evenly;
+    margin: 0px;
+    border: 0px;
+    padding-top: 8px;
     }
 
 .logo   {
     font-weight: 900;
 }
+
+
 
 ul {
     list-style: none;
@@ -26,4 +36,37 @@ ul {
 a {
     text-decoration: none;
     color: white;
+}
+
+.one    {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    background-color: #1f2037;
+    padding: 40px;
+}
+
+.levozgoraj {
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    flex: 1 1 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    color: white;
+    padding-bottom: 30px;
+    
+}
+button {
+    background-color: rgb(4, 120, 235);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
 }
