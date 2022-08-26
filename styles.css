@@ -6,8 +6,10 @@ body {
 }
 
 img {
-    max-width: 250px;
-    max-height: 200px;
+    display: flex;
+    flex: auto;
+    max-width: 220px;
+    
     
 }
 .header {
@@ -23,8 +25,6 @@ img {
 .logo   {
     font-weight: 900;
 }
-
-
 
 ul {
     list-style: none;
@@ -70,3 +70,20 @@ button {
     font-weight: 900;
     color: #f9faf8;
 }
+.naslovslik {
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    padding: 8px;
+    font-size: large;
+}
+
+.slike {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    text-align: center;
+    gap: 8px;
+    margin-bottom: 40px;
+}
+
