@@ -86,4 +86,29 @@ button {
     gap: 8px;
     margin-bottom: 40px;
 }
+.txtpodsliko {
+    max-width: 220px;
+}
+
+.three {
+    background-color: lightgrey;
+    padding-top: 48px;
+    padding-bottom: 48px;
+
+} 
+.quote {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 36px;
+    font-style: italic;
+}
+#signature {
+    text-align: right;
+    margin-right: 200px;
+    font-size: 24px;
+    font-weight: bold;
+}
 
