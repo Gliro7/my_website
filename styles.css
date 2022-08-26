@@ -2,6 +2,7 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
+    margin: 0;
     
 }
 
@@ -111,4 +112,21 @@ button {
     font-size: 24px;
     font-weight: bold;
 }
-
+.four   {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    padding: 36px;    
+    background-color: lightblue;
+    border-radius: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    background-color: #1f2037;
+    color: white;
+}
